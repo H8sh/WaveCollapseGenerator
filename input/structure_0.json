@@ -1,0 +1,32 @@
+{
+  "Structure": {
+    "Name": {
+      "Name_type": "structure_0"
+    },
+    "Mesh": {
+      "Mesh_type": "playermod:structure_0"
+    },
+    "Rotation": {
+      "Rotation_type": 0,
+      "Rotation_allowed": 4
+    },
+    "Sockets": {
+      "North": 0,
+      "South": 1,
+      "East": 2,
+      "West": 3
+    },
+    "Neighbors": [
+      {
+        "North_neighbor": [
+        ],
+        "South_neighbor": [
+        ],
+        "East_neighbor": [
+        ],
+        "West_neighbor": [
+        ]
+      }
+    ]
+  }
+}
