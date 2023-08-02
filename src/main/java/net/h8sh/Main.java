@@ -34,10 +34,8 @@ public class Main {
             // Parse all .json files in the inputs directory
             List<Prototype> inputJsonFiles = loadJsonInputFiles(INPUT_DIRECTORY);
 
-
             // Generate rotated prototypes from the input prototypes
             List<Prototype> rotatedInputJsonFiles = createRotationFromInputJsonFiles(inputJsonFiles);
-
 
             // Compute neighbours for all te prototypes
             createRotationFromRotatedInputJsonFiles(rotatedInputJsonFiles);
@@ -48,7 +46,6 @@ public class Main {
 
             // Write all the prototypes with their neighbours data in 1 .json file
             convertToJson(rotatedInputJsonFiles);
-
 
         }
     }
