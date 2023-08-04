@@ -4,17 +4,17 @@
       "Name_type": "structure_1"
     },
     "Mesh": {
-      "Mesh_type": "playermod:structure_1"
+      "Mesh_type": "structure_1"
     },
     "Rotation": {
       "Rotation_type": 0,
       "Rotation_allowed": 4
     },
     "Sockets": {
-      "North": 3,
-      "South": 7,
-      "East": 8,
-      "West": 9
+      "North": 0,
+      "South": 1,
+      "East": 2,
+      "West": 3
     },
     "Neighbors": [
       {
